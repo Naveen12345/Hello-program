@@ -1,0 +1,56 @@
+package main
+
+import "fmt"
+
+func main() {
+   var a int=10
+   var b int=15
+   fmt.Printf("Addition of a and b is : %d\n", a+b)
+   fmt.Printf("Substraction of a and b is : %d\n", a-b)
+   fmt.Printf("Multiplication of a and b is : %d\n", a*b)
+   fmt.Printf("Division of a and b is : %d\n", a/b)
+   fmt.Printf("Modula division of a and b is : %d\n", a%b)
+}
+
+
+OUTPUT:-
+
+Addition of a and b is : 25
+Substraction of a and b is : -5
+Multiplication of a and b is : 150
+Division of a and b is : 0
+Modula division of a and b is : 10
+
+
+5)package main
+
+import "fmt"
+
+func main() {
+	var x, y = 15, 25
+	x = y
+	fmt.Println("= ", x)
+	x = 15
+	x += y
+	fmt.Println("+=", x)
+	x = 50
+	x -= y
+	fmt.Println("-=", x)
+	x = 2
+	x *= y
+	fmt.Println("*=", x)
+	x = 100
+	x /= y
+	fmt.Println("/=", x)
+	x = 40
+	x %= y
+	fmt.Println("%=", x)
+}
+
+
+=  25
++= 40
+-= 25
+*= 50
+/= 4
+%= 15
