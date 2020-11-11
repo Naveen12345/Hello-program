@@ -1,0 +1,38 @@
+**PROGRAM TO FIND AREA OF CIRCLE:-
+
+package main
+
+import "fmt"
+
+func main() {
+   const R float64 = 15.0
+   const PI float64 = 3.14   
+   var area float64 = PI * R * R
+   fmt.Printf("Area of a circle : %f", area)   
+}
+
+
+OUTPUT:-
+
+Area of a circle : 706.500000
+
+
+**PROGRAM TO FIND AREA:-
+
+package main
+
+import "fmt"
+
+func main() {
+   const L int = 15
+   const W int = 4   
+   var area int
+
+   area = L * W
+   fmt.Printf("AREA : %d", area)   
+}
+
+OUTPUT:-
+
+value of area : 60
+ 
