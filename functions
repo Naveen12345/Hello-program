@@ -1,0 +1,160 @@
+1)package main
+
+import "fmt"
+
+func SimpleFunction() {
+	fmt.Println("kloud!!")
+}
+
+func main() {
+	SimpleFunction()
+}
+
+kloud!!
+
+
+*TO FIND MAX VALUE USING FUNCTIONS 
+
+package main
+
+import "fmt"
+
+func main() {
+   
+   var a int = 1243
+   var b int = 1345
+   var ret int
+
+   
+   ret = findmax(a, b)
+
+   fmt.Printf( "Max value is : %d\n", ret )
+}
+
+
+func findmax(n1, n2 int) int {
+   
+   var result int
+
+   if (n1 > n2) {
+      result = n1
+   } else {
+      result = n2
+   }
+   return result 
+}
+
+OUTPUT :-
+
+Max value is : 1345
+
+
+*TO FIND MINIMUM VALUE USING FUNCTIONS 
+
+
+package main
+
+import "fmt"
+
+func main() {
+   
+   var a int = 1243
+   var b int = 1345
+   var ret int
+
+   
+   ret = findmin(a, b)
+
+   fmt.Printf( "Minimum value is : %d\n", ret )
+}
+
+
+func findmin(n1, n2 int) int {
+   
+   var result int
+
+   if (n1 < n2) {
+      result = n1
+   } else {
+      result = n2
+   }
+   return result 
+}
+
+OUTPUT:-
+
+Minimum value is : 1243
+
+
+*TO FIND SQUARE  VALUE USING FUNCTIONS 
+
+package main
+
+import "fmt"
+
+func main() {
+   
+   var a int = 6
+   var ret int
+
+   
+   ret = square(a)
+
+   fmt.Printf( "Square of a is : %d\n", ret )
+}
+
+
+func square(n1 int) int {
+   
+   var result int
+
+   if (n1 > 1) {
+      result = n1*n1
+    }
+   return result 
+}
+
+OUTPUT:-
+
+Square of a is : 36
+
+
+4)package main
+
+import "fmt"
+
+func add(x int, y int) {
+	sum := 0
+	sum = x + y
+	fmt.Println(sum)
+}
+
+func main() {
+
+	add(44, 16)
+}
+
+60
+
+*TO FIND AREA OF RECTANGLE
+
+package main
+
+import "fmt"
+
+func rectangle(l int, b int) (area int) {
+	var parameter int
+	parameter = 2 * (l + b)
+	fmt.Println("Parameter: ", parameter)
+	area = l * b
+	return 
+}
+func main(){
+	fmt.Println("Area: ", rectangle(20, 30))
+}
+
+Parameter:  100
+Area:  600
+
+
+
