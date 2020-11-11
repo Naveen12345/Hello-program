@@ -1,0 +1,75 @@
+package main
+
+import "fmt"
+
+func main() {
+   var a, b, c ,d= 10, 40.0, "naveen",true  
+	
+   fmt.Println(a)
+   fmt.Println(b)
+   fmt.Println(c)
+   
+   fmt.Println("And the types of above declared variables are:")
+
+   fmt.Printf("a is of type %T\n", a)
+   fmt.Printf("b is of type %T\n", b)
+   fmt.Printf("c is of type %T\n", c)
+   fmt.Printf("d is of type %T\n", d)
+   
+}
+
+Output:-
+
+10
+40
+naveen
+And the types of above declared variables are:
+a is of type int
+b is of type float64
+c is of type string
+d is of type bool
+
+
+2)
+package main
+
+import "fmt"
+
+func main() {
+
+	var a = "kloudone!!"
+	fmt.Println(a)
+
+	
+	var b, c int = 10, 20
+	fmt.Println(b, c)
+
+	
+	var d = true
+	fmt.Println(d)
+
+	
+	var e int
+	fmt.Println(e)
+
+	
+	f := "Golang"
+	fmt.Println(f)
+}
+
+kloudone!!
+10 20
+true
+0
+Golang
+
+Program exited.
+
+
+
+
+
+
+
+
+
